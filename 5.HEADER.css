@@ -1,0 +1,82 @@
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Srisakdi', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Fredericka the Great', cursive;
+}
+
+.container{
+    border: 5px solid red;
+    text-align: center;
+    
+}
+.container>*{
+    border: 5px solid blue;
+}
+.container .content{    
+    padding-left: 150px;
+    padding-right: 150px; 
+    overflow: hidden;
+}
+
+.content>*{
+    border: 5px solid green;
+    float: left; 
+    padding-bottom: 2000px;
+    margin-bottom: -2500px;
+    
+}
+.container footer{
+    clear: both;
+}
+.container .content main{
+    width: 100%;
+}
+.container .content NAV{
+    width: 150px;
+    margin-left: -100%;
+    left: -150px;
+    position: relative;
+}
+.container .content aside{
+    width: 150px;
+    margin-right:-150px;
+    position: relative;
+}
+.container footer{
+    text-align: center;
+} 
+
+@media(max-width:599px){
+    .container .content{    
+    padding-left: 0;
+    padding-right: 0; 
+    overflow: visible;
+}
+
+.content>*{
+    border: 5px solid green;
+    float: none; 
+    padding-bottom: 0;
+    margin-bottom: 0;
+    
+}
+.container footer{
+    clear: both;
+}
+.container .content main{
+    width: 100%;
+}
+.container .content NAV{
+    width: auto;
+    margin-left: 0;
+    left: 0;
+    position: relative;
+}
+.container .content aside{
+    width: auto;
+    margin-right:0;
+}
