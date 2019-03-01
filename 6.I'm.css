@@ -32,7 +32,10 @@ h1:before{
     opacity: 0.5;
 }
 
-
+a:link{
+    display: none;
+        
+}
 
 
 BODY

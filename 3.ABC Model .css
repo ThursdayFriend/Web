@@ -8,8 +8,17 @@ BODY
 }
 .center
 {
-    margin: 400px 0 0 350px;
+    margin: 200px 0 0 350px;
 }
+
+.center1
+{
+    padding-left: 0px
+    font-size: 12em;
+    height: 400px;
+    display:inline-block
+  }
+
 h1
 {
     font-size: 12em;
