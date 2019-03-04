@@ -9,19 +9,25 @@ body {
 	animation: Gradient 15s ease infinite;
     margin: 0;
     
+    
 }
 .figure1{
     color: white;
     text-align: left;
-   padding-right: 500px;
-    
+   padding-right: 40%;
+    position: relative;
+    overflow: visible;
     
     
     }
 .figure{
-    padding-left: 300px;
+    background-position: center;
+    padding-left: 15%;
     margin: 0;
     flex-basis: 300px;
+    position: fixed;
+    overflow: visible;
+    
 }
 
 @-webkit-keyframes Gradient {
@@ -73,6 +79,7 @@ h6 {
     border-bottom: none;
     text-decoration-line: none;
     text-shadow:2px 2px 5px rgba(255, 255, 255, 0.4);;
+    clear: both;
     }
  a:link{color:rgb(255, 255, 255); text-decoration:none ;}
  a:visited{color:#ffffff; text-decoration:none;}
